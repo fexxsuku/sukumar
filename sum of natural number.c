@@ -4,7 +4,7 @@ int n,i,sum=0;
 clrscr();
 printf("\n enter the natural number to calculate sum ");
 scanf("%d",&n);
-for(i=0;i<=n;i++)
+for(i=1;i<=n;i++)
 {
 sum=sum+i;
 }
