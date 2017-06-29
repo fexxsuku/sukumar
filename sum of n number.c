@@ -2,7 +2,7 @@ void main()
 {
 int n,i,sum=0;
 clrscr();
-printf("\n enter the natural number to calculate sum ");
+printf("\n enter the number to calculate sum ");
 scanf("%d",&n);
 for(i=0;i<=n;i++)
 {
