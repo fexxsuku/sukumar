@@ -2,7 +2,7 @@ public class Palindrome
 {  
 public static void main(String args[])
 {  
-int a,sum=0,temp;    
+int r,sum=0,temp;    
 int n=454; 
 temp=n;    
 while(n>0)
