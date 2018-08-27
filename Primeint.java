@@ -8,7 +8,7 @@ public class Primeint {
             boolean flag = false;
 
             for(int i = 2; i <= lim1/2; ++i) {
-                // condition for nonprime number
+             
                 if(lim1 % i == 0) {
                     flag = true;
                     break;
