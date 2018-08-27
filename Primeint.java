@@ -2,23 +2,23 @@ public class Primeint {
 
     public static void main(String[] args) {
 
-        int low = 8, high = 17;
+        int lim1 = 8, lim2 = 17;
 
-        while (low < high) {
+        while (lim1 < lim2) {
             boolean flag = false;
 
-            for(int i = 2; i <= low/2; ++i) {
+            for(int i = 2; i <= lim1/2; ++i) {
                 // condition for nonprime number
-                if(low % i == 0) {
+                if(lim1 % i == 0) {
                     flag = true;
                     break;
                 }
             }
 
             if (!flag)
-                System.out.print(low + " ");
+                System.out.print(lim1 + " ");
 
-            ++low;
+            ++lim1;
         }
     }
 }
