@@ -27,7 +27,7 @@ nums[i]=sc.nextInt();
      
 Arrays.sort(nums);
      
-System.out.println("Minimum = " + nums[0]);
+System.out.println(" " + nums[0]);
      
 }
 
