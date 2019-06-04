@@ -2,19 +2,18 @@ main()
 {
 int n;
 clrscr();
-printf("\n enter the number");
 scanf("%d",&n);
 if(n>0)
 {
-printf("\ the given number is positive");
+printf("\n positive");
 }
 else if(n<0)
 {
-printf("\ the given number is negative");
+printf("\  negative");
 }
 else
 {
-printf("\ the given number is zero");
+printf("\  is zero");
 }
 getch();
 }
