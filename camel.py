@@ -1,5 +1,5 @@
-x=input()
-x=x.split()
-a=x[0]
-b=x[1]
+string=input()
+string=string.split()
+a=string[0]
+b=string[1]
 print(a.title(),b.title())
