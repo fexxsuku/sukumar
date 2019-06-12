@@ -1,5 +1,5 @@
-s1,s2=map(str,input().split())
-if(len(set(s1))==len(set(s2))):
+x,y=map(str,input().split())
+if(len(set(x))==len(set(y))):
     print("yes")
 else:
     print("no")
