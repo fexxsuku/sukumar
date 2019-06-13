@@ -1,6 +1,5 @@
-n1=int(input())
+n1,n2=map(int,input().split())
 l1=list(map(int,input().split()))
-n2=int(input())
 l2=list(map(int,input().split()))
 flag=0
 if (all(x in l1 for x in l2)):
