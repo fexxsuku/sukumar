@@ -1,4 +1,5 @@
-i1,i2=map(str,input().split())
-r1=(i1)[::-1]
-r2=(i2)[::-1]
-print(r1,r2)
+str=input().split()
+l=[]
+for i in str:
+    l.append(i[::-1])
+print(*l)
