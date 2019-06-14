@@ -1,6 +1,7 @@
 sv=int(input())
 l=list(map(int,input().split()))
 flag=1
+l1=[]
 for x in range (len(l)):
     for i in range(x+1,len(l)):
         if(l[x]<l[i]):
@@ -9,5 +10,6 @@ for x in range (len(l)):
         else:
             flag=1
     if (flag==1):
-        print(l[x],end=" ")
-print("\n",max(l))
+        l1.append(l[x])
+print(*l1)
+print(max(l))
