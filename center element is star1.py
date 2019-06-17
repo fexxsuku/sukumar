@@ -1,10 +1,10 @@
-s=list(input())
-a=len(s)
+sv=list(input())
+a=len(sv)
 if(a%2!=0):
-    s[a//2]="*"
+    sv[a//2]="*"
 else:
     b=a//2
-    s[b]="*"
-    s[b-1]="*"
-for x in s:
+    sv[b]="*"
+    sv[b-1]="*"
+for x in sv:
     print(str(x),end="")
