@@ -1,2 +1,2 @@
-s=input()
-print(ord(s))
+sv=input()
+print(ord(sv))
