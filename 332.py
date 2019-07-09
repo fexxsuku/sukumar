@@ -8,6 +8,6 @@ for x in range(len(l)):
     else:
         count=0
 if(count>0):
-    print("yes")
+    print("Yes")
 else:
-    print("no")
+    print("No")
